@@ -27,5 +27,7 @@ model Employee {
   id        Int      @id @default(autoincrement())
   name      String
   createdAt DateTime @default(now())
-  age Int?
+   age Int?
+   newAge Int?
+ 
 }
