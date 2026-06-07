@@ -22,3 +22,9 @@ model User {
   dob       DateTime
   createdAt DateTime @default(now())
 }
+
+model Employee {
+  id        Int      @id @default(autoincrement())
+  name      String
+  createdAt DateTime @default(now())
+}
